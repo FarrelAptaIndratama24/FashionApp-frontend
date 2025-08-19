@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from "react-native";
 
-export default function BagTab() {
+export default function ProfileTab() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Ini halaman Browse (bag) di Tabs</Text>
+      <Text style={styles.text}>Ini halaman Browse (Home) di Tabs</Text>
     </View>
   );
 }

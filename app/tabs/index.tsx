@@ -226,7 +226,7 @@ export default function HomeScreen() {
           <View style={styles.sectionHeader}>
             <View>
               <Text style={styles.sectionTitle}>New</Text>
-              <Text style={styles.sectionSubtitle}>You've never seen it before!</Text>
+              <Text style={styles.sectionSubtitle}>you've never seen it before!</Text>
             </View>
             <TouchableOpacity>
               <Text style={styles.viewAllText}>View all</Text>
@@ -328,6 +328,9 @@ const styles = StyleSheet.create({
   saleCard: {
     width: 148,
   },
+  newCard: {
+    width: 148, // Added to match saleCard width
+  },
   imageContainer: {
     position: 'relative',
     marginBottom: 8,
@@ -421,6 +424,4 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#000000',
   },
-
-  // New Card Styles
-});
+}); // Added closing braces
